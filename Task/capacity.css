@@ -34,6 +34,7 @@ body,html{
 .hero-banner.heroborder{
     position: relative;
     overflow: hidden;
+    margin-top: 82px;
 }
 
 .hero-banner.heroborder::before{
@@ -171,7 +172,7 @@ h1 {
 }
 
 
-.button1 {
+.hero-banner-container .button1 {
     position: relative;
     display: inline-block;
     background: linear-gradient(90deg, #4852a8, #005dba);
@@ -228,7 +229,7 @@ h1 {
     border-color: transparent; 
 }
 
-.button2{
+.hero-banner-container .button2{
     padding: 7px 1.563rem 0px;
     background: transparent;
     color: #664ea0;
@@ -290,12 +291,24 @@ h1 {
     width: auto;
 }
 
+@media (max-width:1024px) {
+    .hero-banner.heroborder{
+        margin-top: 0;
+    }
+
+    .hero-banner.heroborder .hero-banner-container{
+
+        margin-top: 34px;
+    }
+}
 
 @media (max-width: 1023px){
 
     .hero-banner.heroborder{
         padding-bottom: 200px;
+        
     }
+
 
     .hero-banner.heroborder:before,
     .hero-banner.heroborder::after {
@@ -354,7 +367,7 @@ h1 {
         flex-direction: column;
     }
 
-    .button1{
+    .hero-banner-container .button1{
         margin: 0;
         text-align: center;
     }

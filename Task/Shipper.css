@@ -44,6 +44,8 @@ body {
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
+    /* gap: 2rem;
+    width: 98%; */
 }
 
 .tech-desktop {
@@ -64,7 +66,7 @@ body {
     left: -30px;
     right: 0;
     bottom: 54%;
-    top: -35%;
+    top: -4%;
     background-color: #fedb00;
     z-index: -1;
 }
@@ -470,7 +472,7 @@ body {
         
         margin: auto;
     }
-    .custom-button {
+    .customandlink .custom-button {
         width: 19rem !important;
         margin: 31px 0px 0px 1px;
     }
@@ -489,7 +491,6 @@ body {
     text-align: center;
     align-items: center; */
 
-    margin-left: 5rem;
     width: 94vw;
 
   }
@@ -502,7 +503,6 @@ body {
   }
   .button-box{
     position: relative;
-    left: 2rem;
   }
   .toggle-img1{
     width: 30rem !important;
