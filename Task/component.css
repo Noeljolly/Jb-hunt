@@ -263,7 +263,7 @@ body,html{
     height: 100%;
 }
 
-.cmp-image {
+.teaserCarousel-CarouselMain .cmp-image {
     max-width: 1460px;
     opacity: 1;
     margin-top: -90px;
